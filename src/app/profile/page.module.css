@@ -1,0 +1,150 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section {
+    width: 80%;
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 4rem;
+
+
+
+}
+
+.profile {
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+
+
+.userImg {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    
+    margin: 3rem;
+}
+
+.profile h3 {
+    color: white;
+    
+}
+
+.iconsContainer {
+    display: flex;
+
+    
+    align-items: center;
+    flex-direction: row;
+    align-self: self-start;
+
+
+}
+
+
+.iconButton {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 15px;
+
+    transition: all 0.4s;
+    
+    
+}
+.icon {
+    width: 25px;
+    height: 25px;
+    color: #8C6D46;
+    
+    
+}
+
+.iconButton:hover {
+    background-color: #8C6D46;
+    cursor: pointer;
+    
+    .icon {
+        color: whitesmoke;
+    }
+    
+}
+
+.favoritesContainer {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 25px;
+
+}
+
+
+.favorites {
+    flex-wrap: wrap;
+    flex-grow: 1;
+    height: 5rem;
+    background: #0a4273;
+
+    border-radius: 10px;
+}
+
+
+/* P/ SMARTPHONE ABAIXO */
+
+    @media (max-width: 660px) {
+
+        .section {
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 25rem;
+    
+            margin-top: 15px;
+
+        }
+    
+        .profile {
+            flex-direction: column;
+        }
+
+        .userImg {
+            margin: 20px;
+        }
+
+        .iconsContainer {
+            align-self: auto;
+        
+        
+        }
+
+        .favoritesContainer {
+            flex-direction: column;
+        }
+
+        .favorites {
+            width: 100%;
+        }
+    }

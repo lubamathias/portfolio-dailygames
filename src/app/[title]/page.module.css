@@ -1,0 +1,109 @@
+.main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+}
+
+.imageContainer {
+    width: 700px;
+    height: 400px;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid #8C6D46;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.borderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: #0a427344;
+    border: 1px solid #0a4273;
+
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.title {
+    color: whitesmoke;
+    font-family: "Geist", sans-serif;
+}
+
+.info {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+    font-family: "Geist_Mono", sans-serif;
+    text-indent: 25px;
+    
+
+}
+
+.info p {
+    margin: 15px;
+    white-space: 0;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+.extraInfos {
+    width: 400px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+}
+.subItens {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.subItens span {
+    font-size: smaller;
+    margin: 2px;
+}
