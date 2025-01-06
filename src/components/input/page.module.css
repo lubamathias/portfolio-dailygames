@@ -23,6 +23,10 @@
     outline: none;
 }
 
+.input[type="text"] {
+    font-size: 16px;
+  }
+
 
 .button {
     width: 30px;

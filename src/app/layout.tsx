@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   title: "Projeto: Daily Games - descubra jogos incríveis",
   description: "Diversos jogos para você saber mais!",
   keywords: ['games', 'jogos', 'steam'],
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no', // a meta tag de viewport
   openGraph: {
     images: [`${process.env.PROJECT_URL}/images/preview.png`]
   },

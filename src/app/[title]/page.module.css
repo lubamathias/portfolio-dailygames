@@ -26,7 +26,7 @@
 }
 
 .imageContainer {
-    width: 700px;
+    width: 100%;
     height: 400px;
 
     position: relative;
@@ -39,16 +39,18 @@
 }
 
 .image {
-    width: 100%;
+    width: 80%;
     height: 100%;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5px;
+    object-fit: cover;
 }
 
 .borderContainer {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,7 +69,7 @@
 }
 
 .info {
-    width: 900px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,12 +92,14 @@
 .extraInfos {
     width: 400px;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-around;
     flex-direction: row;
     margin-bottom: 20px;
+    
 
 }
+
 .subItens {
     display: flex;
     align-items: baseline;
@@ -106,4 +110,18 @@
 .subItens span {
     font-size: smaller;
     margin: 2px;
+}
+
+@media (max-width: 800px) {
+    .imageContainer {
+        height: 250px;
+    }
+    .extraInfos {
+        width: 250px;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+    .subItens {
+        margin-top: 15px;
+    }
 }

@@ -31,7 +31,7 @@
 }
 
 .nav {
-    width: 350px;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -94,3 +94,30 @@
     color: whitesmoke;
 }
 
+
+@media (max-width: 800px) {
+    .container {
+        width: 95%;
+    }
+
+    .nav {
+        width: 70%;
+    }
+    .link {
+        width: 60px;
+        height: 28px;
+        font-size: small;
+    }
+    .logoGames {
+        width: 105px;
+        height: auto;
+    }
+    .iconContainer {
+        width: 38px;
+        height: 38px;
+    }
+    .icon {
+        width: 27px;
+        height: auto;
+    }
+}
