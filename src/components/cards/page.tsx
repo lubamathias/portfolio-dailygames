@@ -10,7 +10,7 @@ export function Cards({image_url, title, id}: GameProps) {
                 <div className={styles.card}>
                     <Image
                     alt="Imagem do jogo"
-                    src={image_url}
+                    src="https://sujeitoprogramador.com/next-api/foto1.png"
                     fill
                     quality={100}
                     className={styles.image}
