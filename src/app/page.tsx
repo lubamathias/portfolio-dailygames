@@ -67,7 +67,7 @@ export default async function Home(){
           <div className={styles.cardsContainer}>
             {gamesList
             .map((item) => (
-                <div className={styles.cardsCards}>
+                <div className={styles.cardsCards} key={item.id}>
                   <Cards
                     id={item.id}
                     image_url={item.image_url}
