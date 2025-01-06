@@ -113,6 +113,9 @@
 }
 
 @media (max-width: 800px) {
+    .container {
+        width: 90%;
+    }
     .imageContainer {
         height: 250px;
     }
@@ -123,5 +126,9 @@
     }
     .subItens {
         margin-top: 15px;
+    }
+    .info p {
+        text-align: start;
+
     }
 }

@@ -31,7 +31,7 @@
 }
 
 .nav {
-    width: 40%;
+    width: 365px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -96,28 +96,32 @@
 
 
 @media (max-width: 800px) {
+    .header{
+        height: 70px;
+    }
     .container {
         width: 95%;
     }
 
     .nav {
-        width: 70%;
+        width: 65%;
     }
     .link {
-        width: 60px;
-        height: 28px;
-        font-size: small;
+        width: 65px;
+        height: 32px;
+        font-size: medium;
     }
     .logoGames {
         width: 105px;
         height: auto;
     }
     .iconContainer {
-        width: 38px;
-        height: 38px;
+        width: 42px;
+        height: 42px;
     }
     .icon {
         width: 27px;
         height: auto;
     }
+
 }
